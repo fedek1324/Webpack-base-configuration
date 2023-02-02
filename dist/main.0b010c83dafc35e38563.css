@@ -1,0 +1,37 @@
+/*!***********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/bermuda.css ***!
+  \***********************************************************************/
+@font-face {
+    font-family: 'Bermuda LP';
+    src: url(9707466ffdb8385a755d.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*!*********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/style.css ***!
+  \*********************************************************************/
+/* @import '~normalize.css'; */
+
+body {
+    margin: 0 auto;
+    color: rebeccapurple;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url(99e381d90e0d1fb8711d.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Bermuda LP', Courier, monospace;
+    text-align: center;
+}
